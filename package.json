@@ -19,8 +19,8 @@
     "library"
   ],
   "scripts": {
-    "build": "tsc",
-    "postinstall": "tsc --outDir ./build",
+    "build": "npx tsc",
+    "postinstall": "npx tsc --outDir ./build",
     "lint": "npm run lint:src:agile && npm run lint:src:version3 && npm run lint:src:files",
     "lint:src:agile": "npm run lint:base -- src/agile",
     "lint:src:version3": "npm run lint:base -- src/version3",
