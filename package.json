@@ -1,6 +1,6 @@
 {
   "name": "jira-api-js-model",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A JavaScript/TypeScript library which maps Atlassian Jira API responses/models to Node.JS and browsers. This facilitates writing Node or Forge apps with typechecking.",
   "repository": "https://github.com/matt-schwartz/jira-api-js-model.git",
   "author": "Matthew Schwartz <matt@mattschwartz.net>",
