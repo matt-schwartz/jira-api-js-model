@@ -1,0 +1,5 @@
+{
+  "name": "jira-api-js-model@version3",
+  "main": "build/version3/index.js",
+  "types": "build/version3/index.d.ts"
+}

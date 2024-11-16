@@ -1,0 +1,5 @@
+{
+  "name": "jira-api-js-model@agile",
+  "main": "build/agile/index.js",
+  "types": "build/agile/index.d.ts"
+}
