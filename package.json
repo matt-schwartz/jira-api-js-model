@@ -1,6 +1,6 @@
 {
   "name": "jira-api-js-model",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A JavaScript/TypeScript library which maps Atlassian Jira API responses/models to Node.JS and browsers. This facilitates writing Node or Forge apps with typechecking.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -19,8 +19,8 @@
     "library"
   ],
   "scripts": {
-    "build": "npx tsc",
-    "postinstall": "npx tsc --outDir ./build",
+    "build": "npx tsc && cp ./src/agile/package.json ./build/agile/ && cp ./src/version3/package.json ./build/version3/",
+    "postinstall": "npx tsc --outDir ./build && cp ./src/agile/package.json ./build/agile/ && cp ./src/version3/package.json ./build/version3/",
     "lint": "npm run lint:src:agile && npm run lint:src:version3 && npm run lint:src:files",
     "lint:src:agile": "npm run lint:base -- src/agile",
     "lint:src:version3": "npm run lint:base -- src/version3",
