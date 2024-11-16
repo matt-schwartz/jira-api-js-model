@@ -1,0 +1,17 @@
+node_modules
+docs
+tests
+coverage
+.github
+.idea
+examples
+
+.eslintrc
+.editorconfig
+.DS_Store
+yarn.lock
+yarn-error.log
+tsconfig.lint.json
+.env
+.env.example
+.prettierrc

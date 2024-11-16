@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outDir": "build",
+    "module": "CommonJS",
+    "lib": [
+      "ES2018",
+      "DOM"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@jirajs": ["src"],
+      "@jirajs/*": ["src/*"]
+    },
+    "declaration": true,
+    "importHelpers": true,
+    "strict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "docs",
+    "build"
+  ]
+}
